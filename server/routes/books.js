@@ -43,7 +43,7 @@ router.post('/add', (req, res, next) => {
     let newbook = book({
       "Title": req.body.title,
       "Description": req.body.description,
-      "price": req.body.price,
+      "Price": req.body.price,
       "Author": req.body.author,
       "Genre": req.body.genre,
     })
